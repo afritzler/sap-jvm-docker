@@ -2,6 +2,9 @@ name: Docker Image CI
 
 on: [push]
 
+env:
+  IMAGE_NAME: sap-jvm
+
 jobs:
 
   build:
